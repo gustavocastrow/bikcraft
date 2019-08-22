@@ -1,11 +1,11 @@
-/* Estilos gerais */
+/* Estilos Gerais */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -21,8 +21,8 @@ img {
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 .btn:hover {
@@ -54,13 +54,33 @@ img {
   background: #000;
   margin: 8px auto;
 }
-/* Estilos Header */
+
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px 0;
+}
+
+/* Header */
 
 .header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fec63e;
+  background: #fec63e; /* Amarelo */
   padding: 15px 0;
   z-index: 10;
 }
@@ -70,7 +90,6 @@ img {
 }
 
 .header_menu ul li {
-  /*Menu horizontal */
   display: inline-block;
   margin-left: 25px;
   margin-top: 20px;
@@ -90,7 +109,11 @@ img {
   color: #fff;
 }
 
-/* Estilos Introdução */
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
+/* Introdução */
 
 .introducao {
   width: 100%;
@@ -112,8 +135,8 @@ img {
 .quote-externo {
   max-width: 320px;
   margin: 0 auto;
-  color: #fff;
   margin-bottom: 40px;
+  color: white;
 }
 
 .quote-externo p {
@@ -127,29 +150,60 @@ img {
   width: 60px;
   height: 3px;
   background: #fff;
-  margin: 14px auto 10px;
+  margin: 14px auto 10px auto;
 }
 
 .quote-externo cite {
-  font-style: nromal;
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
-/* Produtos */
+/*Introducao Interna*/
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+/*Produtos*/
 
 .produtos {
   padding: 60px 0;
 }
 
-.produtos-lista li {
+.produtos_lista li {
   background: #fec63e;
   text-align: center;
 }
 
-.produtos-lista li h3 {
+/* Necessário para centralizar as imagens */
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
+.produtos_lista li h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
@@ -158,7 +212,7 @@ img {
   margin-top: 20px;
 }
 
-.produtos-lista li h3:after {
+.produtos_lista li h3:after {
   content: "";
   display: block;
   width: 60px;
@@ -167,7 +221,7 @@ img {
   margin: 2px auto;
 }
 
-.produtos-lista li p {
+.produtos_lista li p {
   padding: 10px 20px 20px 20px;
 }
 
@@ -186,7 +240,7 @@ img {
   margin-bottom: 20px;
 }
 
-/* Portfólio */
+/*Portfólio*/
 
 .portfolio {
   width: 100%;
@@ -210,7 +264,7 @@ img {
   color: #fff;
 }
 
-/* Qualidade */
+/*Qualidade*/
 
 .qualidade {
   padding: 60px 0;
@@ -234,6 +288,7 @@ img {
 
 .qualidade_lista {
   padding-top: 20px;
+  overflow: auto; /* clear-fix */
 }
 
 .qualidade_lista li {
@@ -259,7 +314,7 @@ img {
   margin: 6px auto;
 }
 
-/* Qubera */
+/*Quebra*/
 
 .quebra {
   width: 100%;
@@ -274,7 +329,7 @@ img {
   max-width: 400px;
 }
 
-/* Footer */
+/*Footer*/
 
 .footer {
   width: 100%;
@@ -308,7 +363,7 @@ img {
 .footer_contato ul li {
   font-size: 14px;
   line-height: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 .footer_redes ul li {
