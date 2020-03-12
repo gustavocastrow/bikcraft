@@ -18,3 +18,5 @@ Usabilidade,
 Otimização,
 Analytics,
 Host.
+
+![Image description](https://imgur.com/nzEN42N)
