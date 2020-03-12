@@ -19,4 +19,4 @@ Otimização,
 Analytics,
 Host.
 
-![Image description](https://imgur.com/nzEN42N)
+![Image description](https://i.imgur.com/nzEN42N.png)
