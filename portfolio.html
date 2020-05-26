@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/portfolio.css">
   <link rel="stylesheet" href="/css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
   <title>Bikcraft - Portfólio</title>
 </head>
 
@@ -40,24 +41,58 @@
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" data-slide="quote">
     <blockquote class="quote_clientes">  
       <p>
-        "No mundo atual, a contínua expansão da nossa atividade cumpre um papel
-        essecial a formulação da gestão inovadora da qual fazemos parte"
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quisquam 
+        inventore, odio repellendus quos ducimus itaque obcaecati ratione nam 
+        expedita sint, numquam doloribus natus, ipsam voluptatum laborum soluta
+         nemo hic?"
       </p>
-      <cite>Barbara Moss</cite>
+      <cite>Alan Turing</cite>
+    </blockquote>
+
+    <blockquote class="quote_clientes">  
+      <p>
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quisquam 
+        inventore, odio repellendus quos ducimus itaque obcaecati ratione nam 
+        expedita sint, numquam doloribus natus, ipsam voluptatum laborum soluta
+         nemo hic?"
+      </p>
+      <cite>Isaac Newton</cite>
+    </blockquote>
+
+    <blockquote class="quote_clientes">  
+      <p>
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quisquam 
+        inventore, odio repellendus quos ducimus itaque obcaecati ratione nam 
+        expedita sint, numquam doloribus natus, ipsam voluptatum laborum soluta
+         nemo hic?"
+      </p>
+      <cite>Thomas Edison</cite>
     </blockquote>
   </section>
 
   <section class="portfolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio_lista">
         <li class="grid-8">
           <img src="/img/portfolio/retro.jpg" alt="Bike Retro">
         </li>
         <li class="grid-8">
           <img src="/img/portfolio/passeio.jpg" alt="Bike Passeio">
+        </li>
+        <li class="grid-16 esporte">
+          <img src="/img/portfolio/esporte.jpg" alt="Bike Esporte">
+        </li>
+      </ul>
+
+      <ul class="portfolio_lista">
+        <li class="grid-8">
+          <img src="/img/portfolio/passeio.jpg" alt="Bike Passeio">
+        </li>
+        <li class="grid-8">
+          <img src="/img/portfolio/retro.jpg" alt="Bike Retro">
         </li>
         <li class="grid-16 esporte">
           <img src="/img/portfolio/esporte.jpg" alt="Bike Esporte">
@@ -127,6 +162,11 @@
     </div>
   </div>
 </footer>
+
+<script src="./js/script.js"></script>
+<script src="./js/simple-slide.js"></script>
+
+
 
 
 </body>
