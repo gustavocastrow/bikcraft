@@ -58,6 +58,10 @@
     border-color: #FFF;
   }
 
+  .header_menu ul li a.menu_ativo {
+    border-color: #FFF;
+  }
+
   /* === INTRODUCAO */
 
   .introducao {
@@ -66,6 +70,12 @@
     background: url("../img/bg-mobile.jpg") no-repeat center;
     background-size: cover;
   }
+
+  /* === INTRODUCAO INTERNA === */
+  
+  .introducao-interna {
+      margin-top: 0px;
+    }
 
   .introducao h1 {
     font-size: 36px;
@@ -80,8 +90,18 @@
     display: none;
   }
 
+  /* === SOBRE === */
 
+  .missao_sobre p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
 
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
 
 
 }
