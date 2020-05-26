@@ -11,6 +11,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn {
@@ -191,11 +192,15 @@ img {
 
 .produtos {
   padding: 60px 0;
-  text-align: center;
 }
 
 .produtos_lista li {
   background: #FEC63E;
+  text-align: center;
+}
+
+.produtos_lista li img {
+  margin: 0 auto;
 }
 
 .produtos_lista li h3 {
